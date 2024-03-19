@@ -36,7 +36,7 @@ main{
     justify-content: center;
     gap: 70px;
 
-    padding: 0 50px;
+    padding: 70px 50px;
 
     .benefit-data{
         border-bottom: 10px solid $secondary-color;
@@ -68,6 +68,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px;
 }
 
 @media (min-width: 1080px) {

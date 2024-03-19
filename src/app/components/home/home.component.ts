@@ -3,11 +3,12 @@ import { HeaderComponent } from '../header/header.component';
 import { NgOptimizedImage } from '@angular/common';
 import { BtnPrimaryComponent } from '../btn-primary/btn-primary.component';
 import { NewsFormComponent } from '../news-form/news-form.component';
+import { BenefitCardComponent } from '../benefit-card/benefit-card.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeaderComponent, NgOptimizedImage, BtnPrimaryComponent, NewsFormComponent],
+  imports: [HeaderComponent, NgOptimizedImage, BtnPrimaryComponent, NewsFormComponent, BenefitCardComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
